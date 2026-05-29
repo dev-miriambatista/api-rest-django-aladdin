@@ -15,9 +15,9 @@ def get_precos(request):
     
 
 def handler404(request, exception):
-   return JsonResponse(
-    {"erro": "Endereço não encontrado"},
-    status=404,
-    json_dumps_params={"ensure_ascii": False}
-)
+    return JsonResponse(
+        {"erro": "Endereço não encontrado"},
+        status=404,
+        json_dumps_params={"ensure_ascii": False}
+    )
 
