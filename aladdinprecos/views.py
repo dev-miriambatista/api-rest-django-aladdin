@@ -12,7 +12,7 @@ from drf_yasg import openapi
         openapi.Parameter(
             'data',
             openapi.IN_QUERY,
-            description="Data para consulta dos preços (formato: YYYY-MM-DD)",
+            description="Data para consulta dos preços (formato: DD-MM-YYYY)",
             type=openapi.TYPE_STRING
         )
     ]
